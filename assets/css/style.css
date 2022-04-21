@@ -4,10 +4,9 @@
     border: 0;
 }
 
-header {
-    background-image:url(/assets/img/carousel1.jpg)
+body {
+    background-color: #000000;
 }
-
 .logo {
     width: 2rem;
 }

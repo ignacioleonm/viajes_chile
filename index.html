@@ -22,28 +22,62 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./assets/img/viajes.svg" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Quienes somos</a>
-                        <a class="nav-link" href="#">Destacados</a>
-                        <a class="nav-link" href="#">Contactos</a>
-                    </div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"><img class="logo" src="./assets/img/viajes.svg" alt="logo"> Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto me-5">
+                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Quienes somos</a>
+                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#">Contactos</a>
                 </div>
             </div>
-        </nav>
-
+        </div>
+    </nav>
+    <!-- header carrusel -->
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="llamas">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="moai">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pinguino">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
+
+    <!-- seccion quienes somos -->
+
+    <section class="container d-none d-sm-none d-md-block text-light">
+        <h2 class="text-center my-5">¿Quiénes Somos?</h2>
+        <div class="row">
+            <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit laudantium amet quasi quia magni veritatis aspernatur vitae provident quidem odio repudiandae ad accusamus, ducimus incidunt saepe atque tempore ipsum?</div>
+            <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maiores commodi odit quo, perspiciatis, tenetur ut, iste optio omnis aperiam quis non. Unde aliquid, dolorem excepturi iure sequi eaque ipsum.</div>
+            <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, deserunt impedit nostrum quibusdam vero sint praesentium est iusto perspiciatis reiciendis dignissimos laborum rem, ut suscipit? Repellat animi illum voluptas aspernatur?</div>
+        </div>
+    </section>
 
 
 
